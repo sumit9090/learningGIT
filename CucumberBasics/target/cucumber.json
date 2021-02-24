@@ -1,0 +1,603 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to facebook website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T18:06:11.428Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3002000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "In order to login into facebook",
+        "description": "",
+        "id": "login-feature;in-order-to-login-into-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10002700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user entered the \"valid\" username and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 18
+                },
+                {
+                  "val": "valid",
+                  "offset": 39
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_entered_the_username(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8999500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user selects age category",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_selects_age_category(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Age",
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "above 18",
+                  "USA"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18",
+                  "INDIA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user \"shouldbe\" sucessfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldbe",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_should_be_sucessfully_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to facebook website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T18:06:11.727Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "In order to login into facebook",
+        "description": "",
+        "id": "login-feature;in-order-to-login-into-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user entered the \"invalid\" username and \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 18
+                },
+                {
+                  "val": "invalid",
+                  "offset": 41
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_entered_the_username(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user selects age category",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_selects_age_category(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Age",
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "above 18",
+                  "USA"
+                ]
+              },
+              {
+                "cells": [
+                  "below 18",
+                  "INDIA"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user \"shouldnotbe\" sucessfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldnotbe",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_should_be_sucessfully_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/qtpselenium/cucumber/Login.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to facebook website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T18:06:11.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUpfunctional()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "In order to login into facebook",
+        "description": "",
+        "id": "login-feature;in-order-to-login-into-facebook;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1017700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDownfunctional()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6983300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user entered the \"valid\" username and \"valid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 18
+                },
+                {
+                  "val": "valid",
+                  "offset": 39
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_entered_the_username(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3999300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user validates the capcha image",
+            "match": {
+              "location": "com.qtpselenium.cucumber.prodlogin.user_validates_the_capcha_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user \"shouldbe\" sucessfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldbe",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_should_be_sucessfully_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user navigates to facebook website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-23T18:06:11.820Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.setUpfunctional()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "In order to login into facebook",
+        "description": "",
+        "id": "login-feature;in-order-to-login-into-facebook;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDownfunctional()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qtpselenium.cucumber.LoginStep.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user entered the \"invalid\" username and \"invalid\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 18
+                },
+                {
+                  "val": "invalid",
+                  "offset": 41
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_entered_the_username(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 972100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user validates the capcha image",
+            "match": {
+              "location": "com.qtpselenium.cucumber.prodlogin.user_validates_the_capcha_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user \"shouldnotbe\" sucessfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shouldnotbe",
+                  "offset": 6
+                }
+              ],
+              "location": "com.qtpselenium.cucumber.LoginStep.user_should_be_sucessfully_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@functional"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/qtpselenium/cucumber/Logintoprod.feature",
+    "tags": [
+      {
+        "name": "@functional",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
