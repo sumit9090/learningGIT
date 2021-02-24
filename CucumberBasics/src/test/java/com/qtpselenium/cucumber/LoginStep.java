@@ -31,11 +31,13 @@ public class LoginStep {
 public void setUpfunctional()
 {
 	System.out.println("Launch a broweser for functional scenario only");
+	System.out.println("making changes for git learning");
 }
 @After("@functional")
 public void tearDownfunctional()
 {
 	System.out.println("quitting the browser for functional scenario only");
+	System.out.println("making changes for git learning");
 }
 
 
